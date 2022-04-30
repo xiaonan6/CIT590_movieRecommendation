@@ -7,6 +7,13 @@ export const Container = styled.div`
     text-align: center;
     margin: 4rem 0;
   }
+
+  form {
+    text-color: black;
+    text-align: center;
+    margin: 4rem 0;
+    font-size:20pt;
+  }
 `;
 
 export const MovieList = styled.ul`
