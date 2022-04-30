@@ -37,7 +37,6 @@ function MovieDetails() {
         <span>Overview: {movie.overView}</span>
         <span className='release-date'>Release date: {movie.releaseDate}</span>
         <span className='release-date'>Average Rating: {movie.voteAverage}</span>
-
         <Link to="/"><button>Go Back</button></Link>
       </div>
     </div>

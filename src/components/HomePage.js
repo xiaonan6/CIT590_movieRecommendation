@@ -18,7 +18,6 @@ function HomePage() {
   }
 
   
-
   useEffect(() => {
     fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${APIkey}&language=en-US`)
     .then(response => response.json())
@@ -40,9 +39,6 @@ function HomePage() {
     <Container>
       <h1>Search Movies</h1>
       <form action="/" method="get">
-        {/* <label htmlFor="header-search">
-            <span className="visually-hidden">Search Movies</span>
-        </label> */}
         <input
             type="text"
             id="header-search"
